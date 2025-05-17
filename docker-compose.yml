@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    container_name: rapid-competitions
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    environment:
+      - DEBUG=True
+    restart: always
