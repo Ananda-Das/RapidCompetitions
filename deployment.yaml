@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: rapid-competitions
-        image: your-dockerhub-username/rapid-competitions:latest
+        image: ananda1405/rapid-competitions:latest
         ports:
         - containerPort: 8000
         env:
